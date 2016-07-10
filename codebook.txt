@@ -1,3 +1,7 @@
+The following file describes the components of the dataset that was manipulated in "run_analysis.r". Specifically, the ouput of this probject has attempted to join test data to training data and subsequently added the subjects being recorded and te activity being performed.
+
+For a more detailed blow by blow please refer to readme.md.
+
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
