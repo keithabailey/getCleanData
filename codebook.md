@@ -48,7 +48,7 @@ The following files are available for the train and test data. Their description
 
 Data Manipulation: 
 ======
-There are 5 parts:
+The major compenents of the manipulation are:
 
 - Merges the training and the test sets to create one data set.
 - Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -58,4 +58,4 @@ There are 5 parts:
 
 
 For a more detailed blow by blow please refer to readme.md, which will walk you through the run_analysis.r code
-=====
+
