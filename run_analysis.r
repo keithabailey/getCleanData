@@ -136,3 +136,5 @@ finalDataset.tidynarrow <- finalDataSet %>%gather(measurementType, measurement, 
 #Create a summarised dataset showing the average for each activity and subject.
 #In this case there are no NA data, but again leaving for good practice
 finalDataset.tidynarrow.averages <- finalDataset.tidynarrow %>% group_by(subjects, activityLabelName, measurementType) %>% summarise(average = mean(measurement, na.rm=TRUE))
+
+write.table(finalDataset.tidynarrow.averages, file="tidyDataset.txt", sep=" ", row.names=FALSE)
