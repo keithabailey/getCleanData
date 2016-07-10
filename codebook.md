@@ -1,4 +1,8 @@
-The following file describes the components of the dataset that was manipulated in "run_analysis.r". Specifically, the ouput of this probject has attempted to join test data to training data and subsequently added the subjects being recorded and te activity being performed.
+==================================================================
+Codebook
+==================================================================
+
+The following file describes the components of the dataset that was manipulated in "run_analysis.r". At a high level, the ouput of this probject has attempted to join test data to training data and subsequently add the corresponding subjects being recorded and the activity being performed.
 
 ==================================================================
 Debrief on the data, collection and contents
